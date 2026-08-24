@@ -24,6 +24,8 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
+        Cursor.lockState = CursorLockMode.Locked; // Cursor is locked again
+        Cursor.visible = false;                   // Cursor disappears
     }
 
     public void Pause()
@@ -31,6 +33,8 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
+        Cursor.lockState = CursorLockMode.None; // Player can freely move cursor
+        Cursor.visible = true;                  // Cursor reappears
     }
 
     public void MainMenu()
