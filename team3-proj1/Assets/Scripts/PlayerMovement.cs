@@ -1,22 +1,21 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 
+// Credits to Brogrammer (UNITY 3D PLAYER MOVEMENT in 2 MINUTES! FPS Shooter)
+// youtube.com/watch?v=1uW-GbHrtQc
 [RequireComponent(typeof(CharacterController))]
 
 public class PlayerMovement : MonoBehaviour
 {
-    [Serialize] Camera playerCamera;
-    [Serialize] float walkSpeed = 6f;
-    [Serialize] float runSpeed = 12f;
-    [Serialize] float jumpPower = 7f;
-    [Serialize] float gravity = 10f;
-    [Serialize] float lookSpeed = 2f;
-    [Serialize] float lookXLimit = 45f;
-    [Serialize] float defaultHeight = 2f;
-    [Serialize] float crouchHeight = 1f;
-    [Serialize] float crouchSpeed = 3f;
+    [SerializeField] Camera playerCamera;
+    [SerializeField] float walkSpeed = 6f;
+    [SerializeField] float runSpeed = 12f;
+    [SerializeField] float jumpPower = 7f;
+    [SerializeField] float gravity = 10f;
+    [SerializeField] float lookSpeed = 2f;
+    [SerializeField] float lookXLimit = 45f;
+    [SerializeField] float defaultHeight = 2f;
+    [SerializeField] float crouchHeight = 1f;
+    [SerializeField] float crouchSpeed = 3f;
 
     private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0f;
@@ -37,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 right = transform.TransformDirection(Vector3.right);
 
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
-        float curSpeedX = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Verticle") : 0;
+        float curSpeedX = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Vertical") : 0;
         float curSpeedY = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Horizontal") : 0;
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
