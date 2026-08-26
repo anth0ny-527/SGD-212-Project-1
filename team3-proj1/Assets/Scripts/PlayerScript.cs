@@ -22,7 +22,7 @@ public class PlayerScript : MonoBehaviour
         //Code to play sound effect goes here
         wasHit = true;
         playerWon = true;
-        yield return new WaitForSeconds(hitCooldown);
+        yield return null;
         SceneManager.LoadScene("MainMenu"); // Only loads main menu for now
     }
 
