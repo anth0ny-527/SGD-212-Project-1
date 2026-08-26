@@ -7,12 +7,8 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] int playerHealth;
     //private CharacterController characterController;
     private bool wasHit = false;
+    private bool playerWon = false;
     private readonly float hitCooldown = 2f;
-
-    void Start()
-    {
-        //characterController = GetComponent<CharacterController>();
-    }
 
     IEnumerator StartCooldown()
     {
@@ -21,6 +17,21 @@ public class PlayerScript : MonoBehaviour
         wasHit = false;
     }
 
+    IEnumerator WinLevel()
+    {
+        //Code to play sound effect goes here
+        wasHit = true;
+        playerWon = true;
+        yield return new WaitForSeconds(hitCooldown);
+        SceneManager.LoadScene("MainMenu"); // Only loads main menu for now
+    }
+
+    IEnumerator LoseLevel()
+    {
+        wasHit = true;
+        yield return new WaitForSeconds(hitCooldown);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
     private void OnControllerColliderHit (ControllerColliderHit hit)
     {
         if (hit.gameObject.CompareTag("Hazard") && !wasHit)
@@ -29,12 +40,21 @@ public class PlayerScript : MonoBehaviour
             Debug.Log("Reduced player health");
             if (playerHealth < 0)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                StartCoroutine(LoseLevel());
             }
             else
             {
                 StartCoroutine(StartCooldown());
             }
+        }
+        else if (hit.gameObject.CompareTag("Firewall"))
+        {
+            StartCoroutine(LoseLevel());
+        }
+
+        else if (hit.gameObject.CompareTag("WinTrigger") && !playerWon)
+        {
+            StartCoroutine(WinLevel());
         }
     }
 }
