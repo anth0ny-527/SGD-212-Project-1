@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 public class PlayerScript : MonoBehaviour
 {
     [SerializeField] int playerHealth;
-    private CharacterController characterController;
+    //private CharacterController characterController;
     private bool wasHit = false;
     private readonly float hitCooldown = 2f;
 
     void Start()
     {
-        characterController = GetComponent<CharacterController>();
+        //characterController = GetComponent<CharacterController>();
     }
 
     IEnumerator StartCooldown()
@@ -21,11 +21,12 @@ public class PlayerScript : MonoBehaviour
         wasHit = false;
     }
 
-    private void OnControllerColliderHit(ControllerColliderHit hit)
+    private void OnControllerColliderHit (ControllerColliderHit hit)
     {
-        if (characterController != null && hit.gameObject.tag == "Hazard" && !wasHit)
+        if (hit.gameObject.CompareTag("Hazard") && !wasHit)
         {
             playerHealth--;
+            Debug.Log("Reduced player health");
             if (playerHealth < 0)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
