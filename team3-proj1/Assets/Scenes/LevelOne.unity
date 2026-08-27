@@ -6511,7 +6511,7 @@ MonoBehaviour:
   deathSound: {fileID: 8300000, guid: 7466d6d2daf67fb499c7a0edc814a817, type: 3}
   deathFire: {fileID: 8300000, guid: bb59f4b950e82ec4798a24143192444c, type: 3}
   WinSound: {fileID: 0}
-  timeBetweenWalk: 0
+  timeBetweenWalk: 0.5
 --- !u!1001 &125344833
 PrefabInstance:
   m_ObjectHideFlags: 0

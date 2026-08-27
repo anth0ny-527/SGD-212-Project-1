@@ -80,5 +80,10 @@ public class PlayerMovement : MonoBehaviour
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
+
+        if (Input.GetAxis("Vertical") == 1 || Input.GetAxis("Horizontal") == 1 && characterController.isGrounded)
+        {
+            audioScript.PlayWalkingSound();
+        }
     }
 }
