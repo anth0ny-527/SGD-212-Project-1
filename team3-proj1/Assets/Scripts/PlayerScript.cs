@@ -5,11 +5,16 @@ using UnityEngine.SceneManagement;
 public class PlayerScript : MonoBehaviour
 {
     [SerializeField] int playerHealth;
-    //private CharacterController characterController;
+    [SerializeField] AudioScript audioScript;
     private bool wasHit = false;
     private bool playerWon = false;
+    private bool playerLost = false;
     private readonly float hitCooldown = 2f;
 
+    private void Start()
+    {
+        //audioScript = GetComponent<AudioScript>();
+    }
     IEnumerator StartCooldown()
     {
         wasHit = true;
@@ -40,6 +45,8 @@ public class PlayerScript : MonoBehaviour
             Debug.Log("Reduced player health");
             if (playerHealth < 0)
             {
+                playerLost = true;
+                audioScript.PlayDeathSound();
                 StartCoroutine(LoseLevel());
             }
             else
@@ -47,8 +54,10 @@ public class PlayerScript : MonoBehaviour
                 StartCoroutine(StartCooldown());
             }
         }
-        else if (hit.gameObject.CompareTag("Firewall"))
+        else if (hit.gameObject.CompareTag("Firewall") && !playerLost)
         {
+            playerLost = true;
+            audioScript.PlayDeathByFire();
             StartCoroutine(LoseLevel());
         }
 

@@ -20,12 +20,14 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0f;
     private CharacterController characterController;
+    [SerializeField] AudioScript audioScript;
 
     private bool canMove = true;
 
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        //audioScript = GetComponent<AudioScript>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
@@ -44,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
         {
             moveDirection.y = jumpPower;
+            audioScript.PlayJumpSound();
         }
         else
         {
