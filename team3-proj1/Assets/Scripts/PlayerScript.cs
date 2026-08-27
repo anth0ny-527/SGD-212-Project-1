@@ -6,6 +6,7 @@ public class PlayerScript : MonoBehaviour
 {
     [SerializeField] int playerHealth;
     [SerializeField] AudioScript audioScript;
+    private TimeManager timeManager;
     private bool wasHit = false;
     private bool playerWon = false;
     private bool playerLost = false;
@@ -13,7 +14,9 @@ public class PlayerScript : MonoBehaviour
 
     private void Start()
     {
-        //audioScript = GetComponent<AudioScript>();
+        timeManager = GameObject.Find("TimeHandler").GetComponent<TimeManager>();
+        timeManager.ResetTimer();
+        timeManager.StartTimer();
     }
     IEnumerator StartCooldown()
     {
@@ -28,7 +31,8 @@ public class PlayerScript : MonoBehaviour
         //Code to play sound effect goes here
         wasHit = true;
         playerWon = true;
-        yield return null;
+        timeManager.SetUpBestTime(SceneManager.GetActiveScene().name);
+        yield return new WaitForSeconds(5f);
         SceneManager.LoadScene("MainMenu"); // Only loads main menu for now
     }
 

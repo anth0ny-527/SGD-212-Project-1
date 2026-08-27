@@ -30,6 +30,8 @@ public class TimeManager : MonoBehaviour
 
     public void SetUpBestTime(string sceneName)
     {
+        PauseTimer();
+        Debug.Log("Scene name is " + sceneName);
         if (sceneName == "LevelOne")
         {
             levelOneTime = elapsedTime;
@@ -42,6 +44,7 @@ public class TimeManager : MonoBehaviour
         {
             levelThreeTime = elapsedTime;
         }
+        Debug.Log("Best time is " + elapsedTime);
     }
 
     public void StartTimer() { isTimerRunning = true; }
