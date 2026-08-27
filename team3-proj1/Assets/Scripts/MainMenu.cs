@@ -12,6 +12,8 @@ public class MainMenu : MonoBehaviour
         mainMenu.SetActive(true);
         helpScreen.SetActive(false);
         creditsScreen.SetActive(false);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void PlayGame()
