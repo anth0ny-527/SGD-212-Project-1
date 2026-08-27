@@ -17,6 +17,7 @@ public class PlayerScript : MonoBehaviour
     }
     IEnumerator StartCooldown()
     {
+        audioScript.PlayDeathSound();
         wasHit = true;
         yield return new WaitForSeconds(hitCooldown);
         wasHit = false;
@@ -46,7 +47,7 @@ public class PlayerScript : MonoBehaviour
             if (playerHealth < 0)
             {
                 playerLost = true;
-                audioScript.PlayDeathSound();
+                audioScript.PlayDeathByFire();
                 StartCoroutine(LoseLevel());
             }
             else
