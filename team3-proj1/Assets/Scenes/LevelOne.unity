@@ -115171,6 +115171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireWall
       objectReference: {fileID: 0}
+    - target: {fileID: 8298660548017077156, guid: 4cdc7e303158d9743b0adcde6cf00359, type: 3}
+      propertyPath: m_TagString
+      value: Firewall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -115184,6 +115188,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1834931897389486870, guid: be1df3b4499274a40bb1e296d368ad98, type: 3}
+      propertyPath: audioScript
+      value: 
+      objectReference: {fileID: 125277557}
     - target: {fileID: 2265667136159248546, guid: be1df3b4499274a40bb1e296d368ad98, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
@@ -115236,6 +115244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6487263494229161086, guid: be1df3b4499274a40bb1e296d368ad98, type: 3}
+      propertyPath: audioScript
+      value: 
+      objectReference: {fileID: 125277557}
     m_RemovedComponents:
     - {fileID: 5142466288943659398, guid: be1df3b4499274a40bb1e296d368ad98, type: 3}
     - {fileID: 7246348625375329222, guid: be1df3b4499274a40bb1e296d368ad98, type: 3}
