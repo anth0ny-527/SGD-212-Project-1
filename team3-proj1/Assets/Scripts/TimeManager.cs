@@ -52,4 +52,9 @@ public class TimeManager : MonoBehaviour
     public void PauseTimer() { isTimerRunning = false; }
 
     public void ResetTimer() { elapsedTime = 0.0f; }
+
+    public float SendTotalTime()
+    {
+        return elapsedTime;
+    }
 }
