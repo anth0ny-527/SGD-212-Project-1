@@ -27,6 +27,11 @@ public class TimeManager : MonoBehaviour
             elapsedTime += Time.deltaTime;
         }
     }
+    public void StartTimer() { isTimerRunning = true; }
+
+    public void PauseTimer() { isTimerRunning = false; }
+
+    public void ResetTimer() { elapsedTime = 0.0f; }
 
     public void SetUpBestTime(string sceneName)
     {
@@ -47,12 +52,28 @@ public class TimeManager : MonoBehaviour
         Debug.Log("Best time is " + elapsedTime);
     }
 
-    public void StartTimer() { isTimerRunning = true; }
 
-    public void PauseTimer() { isTimerRunning = false; }
 
-    public void ResetTimer() { elapsedTime = 0.0f; }
-
+    public float SendBestTime(string sceneName)
+    {
+        if (sceneName == "LevelOne")
+        {
+            return levelOneTime;
+        }
+        else if (sceneName == "LevelTwo")
+        {
+            return levelTwoTime;
+        }
+        else if (sceneName == "LevelThree")
+        {
+            return levelThreeTime;
+        }
+        else
+        {
+            Debug.Log("Invalid scene name");
+            return 0.0f;
+        }
+    }
     public float SendTotalTime()
     {
         return elapsedTime;
