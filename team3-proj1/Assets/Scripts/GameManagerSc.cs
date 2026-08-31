@@ -1,13 +1,17 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManagerSc : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI endingText;
+    [SerializeField] TextMeshProUGUI totalTimeHeading;
     [SerializeField] TextMeshProUGUI totalTimeEnding;
     [SerializeField] TextMeshProUGUI updatingTimer;
     [SerializeField] TextMeshProUGUI bestTime;
+    [SerializeField] Button retryButton;
+    [SerializeField] Button continueButton;
 
     private TimeManager timeManager;
     void Start()
@@ -43,6 +47,20 @@ public class GameManagerSc : MonoBehaviour
         else
         {
             endingText.text = "You were burnt up...";
+            totalTimeEnding.gameObject.SetActive(false);
+            totalTimeHeading.gameObject.SetActive(false);
+            bestTime.gameObject.SetActive(false);
+            continueButton.gameObject.SetActive(false);
         }
+    }
+
+    public void RetryButton()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void ContinueButton()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

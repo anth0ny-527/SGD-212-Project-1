@@ -6,6 +6,7 @@ public class PlayerScript : MonoBehaviour
 {
     [SerializeField] int playerHealth;
     [SerializeField] AudioScript audioScript;
+    [SerializeField] GameManagerSc gameManager;
     private TimeManager timeManager;
     private bool wasHit = false;
     private bool playerWon = false;
