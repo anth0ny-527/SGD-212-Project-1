@@ -963,7 +963,7 @@ GameObject:
   - component: {fileID: 6900538574614760570}
   - component: {fileID: 7089106129446751034}
   m_Layer: 5
-  m_Name: FadePanel
+  m_Name: EndPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

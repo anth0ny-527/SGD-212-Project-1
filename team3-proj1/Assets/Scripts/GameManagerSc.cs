@@ -1,7 +1,6 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class GameManagerSc : MonoBehaviour
 {
@@ -10,8 +9,10 @@ public class GameManagerSc : MonoBehaviour
     [SerializeField] TextMeshProUGUI totalTimeEnding;
     [SerializeField] TextMeshProUGUI updatingTimer;
     [SerializeField] TextMeshProUGUI bestTime;
-    [SerializeField] Button retryButton;
-    [SerializeField] Button continueButton;
+    [SerializeField] UnityEngine.UI.Button retryButton;
+    [SerializeField] UnityEngine.UI.Button continueButton;
+    [SerializeField] GameObject endPanel;
+    [SerializeField] UnityEngine.UI.Image fadePanel;
 
     private TimeManager timeManager;
     void Start()
@@ -26,7 +27,11 @@ public class GameManagerSc : MonoBehaviour
 
     public void SetUpEndTimes(bool didPlayerWin)
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         string sceneName = SceneManager.GetActiveScene().name;
+        endPanel.SetActive(true);
+
         if (didPlayerWin)
         {
             endingText.text = "You escaped " + sceneName + "!";
@@ -53,6 +58,11 @@ public class GameManagerSc : MonoBehaviour
             continueButton.gameObject.SetActive(false);
         }
     }
+
+    //IEnumerator PanelFade()
+    //{
+    //    Color origColor = fadePanel.color;
+    //}
 
     public void RetryButton()
     {

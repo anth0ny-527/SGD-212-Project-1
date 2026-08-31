@@ -27,21 +27,23 @@ public class PlayerScript : MonoBehaviour
         wasHit = false;
     }
 
-    IEnumerator WinLevel()
+    void WinLevel()
     {
-        //Code to play sound effect goes here
+
         wasHit = true;
         playerWon = true;
-        timeManager.SetUpBestTime(SceneManager.GetActiveScene().name);
-        yield return new WaitForSeconds(5f);
-        SceneManager.LoadScene("MainMenu"); // Only loads main menu for now
+        gameManager.SetUpEndTimes(true);
+        //timeManager.SetUpBestTime(SceneManager.GetActiveScene().name);
+        //yield return new WaitForSeconds(5f);
+        //SceneManager.LoadScene("MainMenu"); // Only loads main menu for now
     }
 
-    IEnumerator LoseLevel()
+    void LoseLevel()
     {
         wasHit = true;
-        yield return new WaitForSeconds(hitCooldown);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        gameManager.SetUpEndTimes(false);
+        //yield return new WaitForSeconds(hitCooldown);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     private void OnControllerColliderHit (ControllerColliderHit hit)
     {
@@ -53,7 +55,7 @@ public class PlayerScript : MonoBehaviour
             {
                 playerLost = true;
                 audioScript.PlayDeathByFire();
-                StartCoroutine(LoseLevel());
+                LoseLevel();
             }
             else
             {
@@ -64,12 +66,12 @@ public class PlayerScript : MonoBehaviour
         {
             playerLost = true;
             audioScript.PlayDeathByFire();
-            StartCoroutine(LoseLevel());
+            LoseLevel();
         }
 
         else if (hit.gameObject.CompareTag("WinTrigger") && !playerWon)
         {
-            StartCoroutine(WinLevel());
+            WinLevel();
         }
     }
 }
