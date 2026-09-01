@@ -1,7 +1,7 @@
 using UnityEngine;
 
 // Credits to Brogrammer "UNITY 3D PLAYER MOVEMENT in 2 MINUTES! FPS Shooter"
-// youtube.com/watch?v=1uW-GbHrtQc
+// www.youtube.com/watch?v=1uW-GbHrtQc
 [RequireComponent(typeof(CharacterController))]
 
 public class PlayerMovement : MonoBehaviour

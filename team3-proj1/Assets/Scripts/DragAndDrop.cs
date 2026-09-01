@@ -19,6 +19,6 @@ public class DragAndDrop : MonoBehaviour
 
     private void OnMouseDrag()
     {
-        transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition) + Vector3.forward; //needs to get the forward position of camera.
     }
 }
