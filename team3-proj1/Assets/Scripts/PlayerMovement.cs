@@ -27,7 +27,6 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-        //audioScript = GetComponent<AudioScript>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
@@ -85,5 +84,10 @@ public class PlayerMovement : MonoBehaviour
         {
             audioScript.PlayWalkingSound();
         }
+    }
+
+    public void StopMoving()
+    {
+        canMove = false;
     }
 }

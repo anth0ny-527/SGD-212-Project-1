@@ -7,6 +7,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] int playerHealth;
     [SerializeField] AudioScript audioScript;
     [SerializeField] GameManagerSc gameManager;
+    [SerializeField] PlayerMovement playerMovement;
     private TimeManager timeManager;
     private bool wasHit = false;
     private bool playerWon = false;
@@ -32,18 +33,15 @@ public class PlayerScript : MonoBehaviour
 
         wasHit = true;
         playerWon = true;
+        playerMovement.StopMoving();
         gameManager.SetUpEndTimes(true);
-        //timeManager.SetUpBestTime(SceneManager.GetActiveScene().name);
-        //yield return new WaitForSeconds(5f);
-        //SceneManager.LoadScene("MainMenu"); // Only loads main menu for now
     }
 
     void LoseLevel()
     {
         wasHit = true;
+        playerMovement.StopMoving();
         gameManager.SetUpEndTimes(false);
-        //yield return new WaitForSeconds(hitCooldown);
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     private void OnControllerColliderHit (ControllerColliderHit hit)
     {
@@ -64,6 +62,7 @@ public class PlayerScript : MonoBehaviour
         }
         else if (hit.gameObject.CompareTag("Firewall") && !playerLost)
         {
+            hit.gameObject.GetComponent<MeshCollider>().enabled = false;
             playerLost = true;
             audioScript.PlayDeathByFire();
             LoseLevel();

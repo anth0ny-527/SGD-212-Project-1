@@ -38,7 +38,7 @@ public class GameManagerSc : MonoBehaviour
             totalTimeEnding.text = timeManager.SendTotalTime().ToString() + " seconds";
             timeManager.PauseTimer();
 
-            if (timeManager.SendTotalTime() > timeManager.SendBestTime(sceneName))
+            if (timeManager.SendTotalTime() < timeManager.SendBestTime(sceneName))
             {
                 timeManager.SetUpBestTime(sceneName);
                 bestTime.text = "New Record: " + timeManager.SendBestTime(sceneName) + " seconds!";
