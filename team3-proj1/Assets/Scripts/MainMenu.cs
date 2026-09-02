@@ -7,6 +7,8 @@ public class MainMenu : MonoBehaviour
     public GameObject helpScreen;
     public GameObject creditsScreen;
 
+    public float panSpeed = 5f;
+
     private void Start()
     {
         mainMenu.SetActive(true);
@@ -14,6 +16,11 @@ public class MainMenu : MonoBehaviour
         creditsScreen.SetActive(false);
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+    }
+
+    private void Update()
+    {
+        transform.Rotate(0f, -panSpeed * Time.deltaTime, 0f);
     }
 
     public void PlayGame()
@@ -43,6 +50,5 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
-        
     }
 }
