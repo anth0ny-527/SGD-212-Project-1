@@ -238,6 +238,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerScript
   playerHealth: 3
   audioScript: {fileID: 6376981591768138454}
+  gameManager: {fileID: 0}
+  playerMovement: {fileID: 1834931897389486870}
 --- !u!114 &6376981591768138454
 MonoBehaviour:
   m_ObjectHideFlags: 0

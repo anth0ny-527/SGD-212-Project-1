@@ -56892,17 +56892,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7462273803352171755, guid: 19fcb9a0e3b31914c848c52da1544a4e, type: 3}
   m_PrefabInstance: {fileID: 1023710391}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1024620871 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1834931897389486870, guid: be1df3b4499274a40bb1e296d368ad98, type: 3}
-  m_PrefabInstance: {fileID: 5515551117251639026}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 618e01ca6231ce9498712d35599bce65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
 --- !u!4 &1025147138 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2175977812925007780, guid: 9f797465be5cdaa4b82ecd4ab87145f5, type: 3}
@@ -103065,10 +103054,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moveable Object
       objectReference: {fileID: 0}
-    - target: {fileID: 8790688291132072061, guid: 6a0c1518888203046beb623d0b09ba35, type: 3}
-      propertyPath: m_Constraints
-      value: 112
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -115641,10 +115626,6 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 477358922}
-    - target: {fileID: 6487263494229161086, guid: be1df3b4499274a40bb1e296d368ad98, type: 3}
-      propertyPath: playerMovement
-      value: 
-      objectReference: {fileID: 1024620871}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
