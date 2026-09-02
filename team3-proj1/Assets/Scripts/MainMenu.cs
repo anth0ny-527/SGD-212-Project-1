@@ -1,19 +1,23 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Playables;
+using UnityEngine.UI;
+using System.Collections;
 
 public class MainMenu : MonoBehaviour
 {
     public GameObject mainMenu;
     public GameObject helpScreen;
     public GameObject creditsScreen;
+    public GameObject Fadeout;
 
     public Camera cutsceneCamera;
     public PlayableDirector cutsceneTimeline;
+    public Camera mainCamera;
 
-    public float panSpeed = 5f;
 
-    private Camera mainCamera;
+    private float panSpeed = 5f;
+    private float fadeDuration = 0.5f;
 
     private void Start()
     {
@@ -21,7 +25,7 @@ public class MainMenu : MonoBehaviour
         helpScreen.SetActive(false);
         creditsScreen.SetActive(false);
 
-        mainCamera = GetComponent<Camera>();
+       
 
         mainCamera.gameObject.SetActive(true);
         cutsceneCamera.gameObject.SetActive(false);
@@ -52,6 +56,34 @@ public class MainMenu : MonoBehaviour
 
     private void CutsceneFinished(PlayableDirector director)
     {
+        StartCoroutine(FadeToBlack());
+    }
+
+    private IEnumerator FadeToBlack()
+    {
+        Image fadeImage = Fadeout.GetComponent<Image>();
+
+        Fadeout.SetActive(true);
+
+        Color color = fadeImage.color;
+        color.a = 0f;
+        fadeImage.color = color;
+
+        float timer = 0f;
+
+        while (timer < fadeDuration)
+        {
+            timer += Time.deltaTime;
+
+            color.a = Mathf.Lerp(0f, 1f, timer / fadeDuration);
+            fadeImage.color = color;
+
+            yield return null;
+        }
+
+        color.a = 1f;
+        fadeImage.color = color;
+
         SceneManager.LoadScene("LevelOne");
     }
 
