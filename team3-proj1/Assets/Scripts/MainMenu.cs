@@ -17,7 +17,7 @@ public class MainMenu : MonoBehaviour
 
 
     private float panSpeed = 5f;
-    private float fadeDuration = 0.5f;
+    private float fadeDuration = 1.5f;
 
     private void Start()
     {
