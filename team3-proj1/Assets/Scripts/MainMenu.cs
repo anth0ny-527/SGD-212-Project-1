@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Playables;
 
 public class MainMenu : MonoBehaviour
 {
@@ -7,23 +8,49 @@ public class MainMenu : MonoBehaviour
     public GameObject helpScreen;
     public GameObject creditsScreen;
 
+    public Camera cutsceneCamera;
+    public PlayableDirector cutsceneTimeline;
+
     public float panSpeed = 5f;
+
+    private Camera mainCamera;
 
     private void Start()
     {
         mainMenu.SetActive(true);
         helpScreen.SetActive(false);
         creditsScreen.SetActive(false);
+
+        mainCamera = GetComponent<Camera>();
+
+        mainCamera.gameObject.SetActive(true);
+        cutsceneCamera.gameObject.SetActive(false);
+
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
+        cutsceneTimeline.stopped += CutsceneFinished;
     }
 
     private void Update()
     {
-        transform.Rotate(0f, -panSpeed * Time.deltaTime, 0f);
+        if (mainCamera.gameObject.activeSelf)
+        {
+            mainCamera.transform.Rotate(0f, -panSpeed * Time.deltaTime, 0f);
+        }
     }
 
     public void PlayGame()
+    {
+        mainMenu.SetActive(false);
+
+        mainCamera.gameObject.SetActive(false);
+        cutsceneCamera.gameObject.SetActive(true);
+
+        cutsceneTimeline.Play();
+    }
+
+    private void CutsceneFinished(PlayableDirector director)
     {
         SceneManager.LoadScene("LevelOne");
     }
@@ -50,5 +77,13 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    private void OnDestroy()
+    {
+        if (cutsceneTimeline != null)
+        {
+            cutsceneTimeline.stopped -= CutsceneFinished;
+        }
     }
 }
