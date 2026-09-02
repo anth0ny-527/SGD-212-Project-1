@@ -7,10 +7,6 @@ public class DragAndDrop : MonoBehaviour
 {
     Vector3 mousePosition;
 
-    private void Start()
-    {
-        GameObject.Find("Player").GetComponentsInChildren<Camera>();
-    }
     private Vector3 GetMousePos()
     {
         return Camera.main.WorldToScreenPoint(transform.position);
