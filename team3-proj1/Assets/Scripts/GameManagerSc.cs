@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -18,6 +19,33 @@ public class GameManagerSc : MonoBehaviour
     void Start()
     {
         timeManager = GameObject.Find("TimeHandler").GetComponent<TimeManager>();
+
+        StartCoroutine(FadeIn());
+    }
+
+    private IEnumerator FadeIn()
+    {
+        Color color = fadePanel.color;
+        color.a = 1f;
+        fadePanel.color = color;
+
+        fadePanel.gameObject.SetActive(true);
+
+        float timer = 0f;
+        float fadeTime = 2f;
+
+        while (timer < fadeTime)
+        {
+            timer += Time.deltaTime;
+
+            color.a = Mathf.Lerp(1f, 0f, timer / fadeTime);
+            fadePanel.color = color;
+
+            yield return null;
+        }
+
+        color.a = 0f;
+        fadePanel.color = color;
     }
 
     void FixedUpdate()
