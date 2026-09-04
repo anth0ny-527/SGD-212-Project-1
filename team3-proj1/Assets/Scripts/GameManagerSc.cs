@@ -16,10 +16,11 @@ public class GameManagerSc : MonoBehaviour
     [SerializeField] UnityEngine.UI.Image fadePanel;
 
     private TimeManager timeManager;
+    private AudioSource audioSource;
     void Start()
     {
         timeManager = GameObject.Find("TimeHandler").GetComponent<TimeManager>();
-
+        audioSource = GetComponent<AudioSource>();
         StartCoroutine(FadeIn());
     }
 
@@ -94,11 +95,13 @@ public class GameManagerSc : MonoBehaviour
 
     public void RetryButton()
     {
+        audioSource.Play();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void ContinueButton()
     {
+        audioSource.Play();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

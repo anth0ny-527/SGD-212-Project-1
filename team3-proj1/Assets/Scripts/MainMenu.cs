@@ -19,6 +19,8 @@ public class MainMenu : MonoBehaviour
     private float panSpeed = 5f;
     private float fadeDuration = 1f;
 
+    public AudioSource buttonSound;
+
     private void Start()
     {
         mainMenu.SetActive(true);
@@ -44,13 +46,17 @@ public class MainMenu : MonoBehaviour
         }
     }
 
+    public void PlayButtonSound()
+    {
+        buttonSound.Play();
+    }
     public void PlayGame()
     {
         mainMenu.SetActive(false);
 
         mainCamera.gameObject.SetActive(false);
         cutsceneCamera.gameObject.SetActive(true);
-
+        PlayButtonSound();
         cutsceneTimeline.Play();
     }
 
@@ -89,18 +95,21 @@ public class MainMenu : MonoBehaviour
 
     public void OpenHelp()
     {
+        PlayButtonSound();
         mainMenu.SetActive(false);
         helpScreen.SetActive(true);
     }
 
     public void OpenCredits()
     {
+        PlayButtonSound();
         mainMenu.SetActive(false);
         creditsScreen.SetActive(true);
     }
 
     public void ReturnToMainMenu()
     {
+        PlayButtonSound();
         helpScreen.SetActive(false);
         creditsScreen.SetActive(false);
         mainMenu.SetActive(true);
