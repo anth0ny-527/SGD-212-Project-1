@@ -15,6 +15,7 @@ public class GameManagerSc : MonoBehaviour
     [SerializeField] GameObject endPanel;
     [SerializeField] UnityEngine.UI.Image fadePanel;
     [SerializeField] AudioSource audioSource;
+    [SerializeField] GameObject HealthBar;
 
     private TimeManager timeManager;
     void Start()
@@ -59,7 +60,7 @@ public class GameManagerSc : MonoBehaviour
         Cursor.visible = true;
         string sceneName = SceneManager.GetActiveScene().name;
         endPanel.SetActive(true);
-
+        
         if (didPlayerWin)
         {
             endingText.text = "You escaped " + sceneName + "!";
@@ -83,6 +84,7 @@ public class GameManagerSc : MonoBehaviour
             totalTimeEnding.gameObject.SetActive(false);
             totalTimeHeading.gameObject.SetActive(false);
             bestTime.gameObject.SetActive(false);
+            HealthBar.SetActive(false);
             continueButton.gameObject.SetActive(false);
         }
     }
