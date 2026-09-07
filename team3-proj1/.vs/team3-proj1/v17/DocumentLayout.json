@@ -1,34 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\",
+  "WorkspaceRootPath": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|c:\\users\\eavellaneda\\documents\\github\\sgd-212-project-1\\team3-proj1\\assets\\scripts\\firewall2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|c:\\users\\edu92\\onedrive\\documents\\unity projects\\wake tech 2026 fall semester\\sgd-212-project-1\\team3-proj1\\assets\\scripts\\firewall2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firewall2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\assets\\scripts\\firewall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firewall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|c:\\users\\edu92\\onedrive\\documents\\unity projects\\wake tech 2026 fall semester\\sgd-212-project-1\\team3-proj1\\assets\\scripts\\audioscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audioscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\assets\\scripts\\draganddrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\draganddrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|c:\\users\\edu92\\onedrive\\documents\\unity projects\\wake tech 2026 fall semester\\sgd-212-project-1\\team3-proj1\\assets\\scripts\\gamemanagersc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanagersc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|c:\\users\\edu92\\onedrive\\documents\\unity projects\\wake tech 2026 fall semester\\sgd-212-project-1\\team3-proj1\\assets\\scripts\\cutscenehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutscenehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\assets\\scripts\\draganddrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\draganddrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\assets\\scripts\\firewall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firewall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|c:\\users\\edu92\\onedrive\\documents\\unity projects\\wake tech 2026 fall semester\\sgd-212-project-1\\team3-proj1\\assets\\scripts\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,92 +54,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AudioScript.cs",
+              "DocumentMoniker": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\AudioScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioScript.cs",
+              "ToolTip": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\AudioScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AudioScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:41:26.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CutScenehelper.cs",
+              "DocumentMoniker": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\CutScenehelper.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CutScenehelper.cs",
+              "ToolTip": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\CutScenehelper.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CutScenehelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:41:19.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManagerSc.cs",
+              "DocumentMoniker": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\GameManagerSc.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManagerSc.cs",
+              "ToolTip": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\GameManagerSc.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManagerSc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:41:12.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TimeManager.cs",
+              "DocumentMoniker": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\TimeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TimeManager.cs",
+              "ToolTip": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\TimeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TimeManager.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:40:58.86Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Firewall2.cs",
-              "DocumentMoniker": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\Firewall2.cs",
+              "DocumentMoniker": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\Firewall2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Firewall2.cs",
-              "ToolTip": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\Firewall2.cs",
+              "ToolTip": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\Firewall2.cs",
               "RelativeToolTip": "Assets\\Scripts\\Firewall2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-03T21:42:33.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "DragAndDrop.cs",
-              "DocumentMoniker": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\DragAndDrop.cs",
+              "DocumentMoniker": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\DragAndDrop.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DragAndDrop.cs",
-              "ToolTip": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\DragAndDrop.cs",
+              "ToolTip": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\DragAndDrop.cs",
               "RelativeToolTip": "Assets\\Scripts\\DragAndDrop.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T21:41:22.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T22:55:34.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PauseMenu.cs",
-              "DocumentMoniker": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
-              "ToolTip": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PauseMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T22:55:26.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Firewall.cs",
-              "DocumentMoniker": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\Firewall.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Firewall.cs",
-              "ToolTip": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\Firewall.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Firewall.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T01:00:47.907Z"
+              "WhenOpened": "2026-09-03T21:41:22.851Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBsAAAAIAAAAAAAAAA==",
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T21:37:02.554Z"
+              "WhenOpened": "2026-08-26T22:55:34.01Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PlayerScript.cs",
-              "DocumentMoniker": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PlayerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
-              "ToolTip": "C:\\Users\\eavellaneda\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PlayerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA4wBYAAAAWAAAAAAAAAA==",
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T21:32:23.295Z"
+              "WhenOpened": "2026-08-26T22:55:26.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Firewall.cs",
+              "DocumentMoniker": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\Firewall.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Firewall.cs",
+              "ToolTip": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\Firewall.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Firewall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T01:00:47.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T21:37:02.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerScript.cs",
+              "DocumentMoniker": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PlayerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
+              "ToolTip": "C:\\Users\\edu92\\OneDrive\\Documents\\Unity Projects\\Wake Tech 2026 Fall Semester\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PlayerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwBYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T21:32:23.295Z",
+              "EditorCaption": ""
             }
           ]
         }

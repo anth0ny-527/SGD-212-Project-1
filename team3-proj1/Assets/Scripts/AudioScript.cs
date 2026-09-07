@@ -32,6 +32,11 @@ public class AudioScript : MonoBehaviour
     {
         audioSource.PlayOneShot(deathSound);
     }
+
+    public void PlayClickSound()
+    {
+        audioSource.PlayOneShot(clickSound);
+    }
     public void PlayWalkingSound()
     {
         if (canLoop)
