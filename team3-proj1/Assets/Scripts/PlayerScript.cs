@@ -13,9 +13,10 @@ public class PlayerScript : MonoBehaviour
     private bool playerWon = false;
     private bool playerLost = false;
     private readonly float hitCooldown = 2f;
-
+    private int maxPlayerHealth;
     private void Start()
     {
+        maxPlayerHealth = playerHealth;
         timeManager = GameObject.Find("TimeHandler").GetComponent<TimeManager>();
         timeManager.ResetTimer();
         timeManager.StartTimer();
@@ -73,4 +74,16 @@ public class PlayerScript : MonoBehaviour
             WinLevel();
         }
     }
+
+
+    public int GetHealth()
+    {
+        return playerHealth;
+    }
+
+    public int GetMaxHealth()
+    {
+        return maxPlayerHealth;
+    }
+
 }
