@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenuUI;
-
+    [SerializeField] GameObject pauseMenuUI;
+    [SerializeField] AudioClip clickSound;
     private bool isPaused = false;
     private AudioSource audioSource;
 
@@ -27,11 +27,11 @@ public class PauseMenu : MonoBehaviour
 
     public void PlayButtonSound()
     {
-        audioSource.Play();
+        audioSource.PlayOneShot(clickSound);
     }
     public void Resume()
     {
-        audioSource.Play();
+        audioSource.PlayOneShot(clickSound);
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
@@ -51,14 +51,14 @@ public class PauseMenu : MonoBehaviour
 
     public void MainMenu()
     {
-        audioSource.Play(); 
+        audioSource.PlayOneShot(clickSound); 
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
 
     public void QuitGame()
     {
-        audioSource.Play();
+        audioSource.PlayOneShot(clickSound);
         Time.timeScale = 1f;
         Application.Quit();
     }

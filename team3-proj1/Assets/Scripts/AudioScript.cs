@@ -8,6 +8,7 @@ public class AudioScript : MonoBehaviour
     [SerializeField] AudioClip deathSound;
     [SerializeField] AudioClip deathFire;
     [SerializeField] AudioClip WinSound;
+    [SerializeField] AudioClip clickSound;
     [SerializeField] float timeBetweenWalk;
     private AudioSource audioSource;
     private bool canLoop = true;

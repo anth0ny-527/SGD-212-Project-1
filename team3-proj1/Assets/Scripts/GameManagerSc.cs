@@ -14,13 +14,12 @@ public class GameManagerSc : MonoBehaviour
     [SerializeField] UnityEngine.UI.Button continueButton;
     [SerializeField] GameObject endPanel;
     [SerializeField] UnityEngine.UI.Image fadePanel;
+    [SerializeField] AudioSource audioSource;
 
     private TimeManager timeManager;
-    private AudioSource audioSource;
     void Start()
     {
         timeManager = GameObject.Find("TimeHandler").GetComponent<TimeManager>();
-        audioSource = GetComponent<AudioSource>();
         StartCoroutine(FadeIn());
     }
 

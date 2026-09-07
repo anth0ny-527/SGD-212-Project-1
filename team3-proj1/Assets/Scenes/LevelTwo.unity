@@ -116610,6 +116610,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2256834637618419393, guid: 7465ec3150b8baf47ba1e2553672e9e7, type: 3}
   m_PrefabInstance: {fileID: 1468089205}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1468747438 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2840773547743072267, guid: 2e565772de5cfc44fa826a0c4a11bb0e, type: 3}
+  m_PrefabInstance: {fileID: 247624396}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1468782127
 Mesh:
   m_ObjectHideFlags: 0
@@ -153901,6 +153906,10 @@ PrefabInstance:
       propertyPath: endingText
       value: 
       objectReference: {fileID: 247624404}
+    - target: {fileID: 1343352134844582448, guid: 1c0e4871bf50d1b409852b98283119ec, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1468747438}
     - target: {fileID: 1343352134844582448, guid: 1c0e4871bf50d1b409852b98283119ec, type: 3}
       propertyPath: retryButton
       value: 
