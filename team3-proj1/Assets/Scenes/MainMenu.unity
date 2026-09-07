@@ -165700,11 +165700,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'UI elements by THAT WITCH DESIGN
+  m_text: 'UI elements by THAT WITCH DESIGN & Giniel Villacote
 
-    Pandazole Ultimate Pack
 
-    FullOpaqueFire'
+    Pandazole Ultimate
+    Pack by
+
+    FullOpaqueFire
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d9dd4a134a32f1b43b90e4995cc19b1c, type: 2}
   m_sharedMaterial: {fileID: 8433856542038431352, guid: d9dd4a134a32f1b43b90e4995cc19b1c, type: 2}
