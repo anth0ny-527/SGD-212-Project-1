@@ -15,18 +15,18 @@ public class PlayerScript : MonoBehaviour
     private readonly float hitCooldown = 2f;
     private int maxPlayerHealth;
 
+    private void Awake()
+    {
+        maxPlayerHealth = playerHealth;
+    }
 
     private void Start()
     {
-        maxPlayerHealth = playerHealth;
-
-        Debug.Log("Starting Health: " + playerHealth);
         timeManager = GameObject.Find("TimeHandler").GetComponent<TimeManager>();
         timeManager.ResetTimer();
         timeManager.StartTimer();
-
-
     }
+
     IEnumerator StartCooldown()
     {
         audioScript.PlayDeathSound();
