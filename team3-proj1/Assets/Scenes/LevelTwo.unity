@@ -79345,6 +79345,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7454421557693757365, guid: eb97697210965be4da34037e1549985f, type: 3}
   m_PrefabInstance: {fileID: 1013205780}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1013642172 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3396462062650506030, guid: 2e565772de5cfc44fa826a0c4a11bb0e, type: 3}
+  m_PrefabInstance: {fileID: 247624396}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1013784434 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5572534696579013443, guid: e45910011666f4c46ba763119b74c1a1, type: 3}
@@ -154055,6 +154060,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 247624397}
     - target: {fileID: 1343352134844582448, guid: 1c0e4871bf50d1b409852b98283119ec, type: 3}
+      propertyPath: HealthBar
+      value: 
+      objectReference: {fileID: 1013642172}
+    - target: {fileID: 1343352134844582448, guid: 1c0e4871bf50d1b409852b98283119ec, type: 3}
       propertyPath: fadePanel
       value: 
       objectReference: {fileID: 25544410}
@@ -162987,6 +162996,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1848521341337431874, guid: be1df3b4499274a40bb1e296d368ad98, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1982651633}
     - target: {fileID: 3501983220773095080, guid: be1df3b4499274a40bb1e296d368ad98, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.89

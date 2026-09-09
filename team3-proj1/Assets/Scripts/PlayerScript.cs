@@ -50,7 +50,7 @@ public class PlayerScript : MonoBehaviour
         playerMovement.StopMoving();
         gameManager.SetUpEndTimes(false);
     }
-    private void OnControllerColliderHit (ControllerColliderHit hit)
+    private void OnTriggerStay (Collider hit)
     {
         if (hit.gameObject.CompareTag("Hazard") && !wasHit)
         {
