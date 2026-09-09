@@ -103,6 +103,13 @@ public class GameManagerSc : MonoBehaviour
     public void ContinueButton()
     {
         audioSource.Play();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (SceneManager.GetActiveScene().name == "LevelThree Clone")
+        {
+            SceneManager.LoadScene(0);
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }
