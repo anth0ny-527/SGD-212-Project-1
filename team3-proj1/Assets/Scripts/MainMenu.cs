@@ -90,7 +90,7 @@ public class MainMenu : MonoBehaviour
         color.a = 1f;
         fadeImage.color = color;
 
-        SceneManager.LoadScene("LevelOne");
+        SceneManager.LoadScene("Level One");
     }
 
     public void OpenHelp()
