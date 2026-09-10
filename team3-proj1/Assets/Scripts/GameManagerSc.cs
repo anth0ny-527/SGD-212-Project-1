@@ -60,7 +60,8 @@ public class GameManagerSc : MonoBehaviour
         Cursor.visible = true;
         string sceneName = SceneManager.GetActiveScene().name;
         endPanel.SetActive(true);
-        
+        HealthBar.SetActive(false);
+
         if (didPlayerWin)
         {
             endingText.text = "You escaped " + sceneName + "!";
