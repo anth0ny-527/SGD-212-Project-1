@@ -37,15 +37,15 @@ public class TimeManager : MonoBehaviour
     {
         PauseTimer();
         Debug.Log("Scene name is " + sceneName);
-        if (sceneName == "LevelOne")
+        if (sceneName == "Level One")
         {
             levelOneTime = elapsedTime;
         }
-        else if (sceneName == "LevelTwo")
+        else if (sceneName == "Level Two")
         {
             levelTwoTime = elapsedTime;
         }
-        else if (sceneName == "LevelThree")
+        else if (sceneName == "Level Three")
         {
             levelThreeTime = elapsedTime;
         }
@@ -56,15 +56,15 @@ public class TimeManager : MonoBehaviour
 
     public float SendBestTime(string sceneName)
     {
-        if (sceneName == "LevelOne")
+        if (sceneName == "Level One")
         {
             return levelOneTime;
         }
-        else if (sceneName == "LevelTwo")
+        else if (sceneName == "Level Two")
         {
             return levelTwoTime;
         }
-        else if (sceneName == "LevelThree")
+        else if (sceneName == "Level Three")
         {
             return levelThreeTime;
         }
