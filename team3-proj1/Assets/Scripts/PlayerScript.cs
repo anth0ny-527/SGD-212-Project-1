@@ -56,7 +56,7 @@ public class PlayerScript : MonoBehaviour
         {
             playerHealth--;
             Debug.Log("Reduced player health");
-            if (playerHealth < 0)
+            if (playerHealth <= 0)
             {
                 playerLost = true;
                 audioScript.PlayDeathByFire();

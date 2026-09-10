@@ -10208,6 +10208,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.4000244
       objectReference: {fileID: 0}
+    - target: {fileID: 2488030396419983330, guid: 2e565772de5cfc44fa826a0c4a11bb0e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488030396419983330, guid: 2e565772de5cfc44fa826a0c4a11bb0e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2806890237053336375, guid: 2e565772de5cfc44fa826a0c4a11bb0e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -37725,6 +37733,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6564f89dfb84e1d4eb0b36a119363149, type: 3}
+--- !u!1 &638812713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3526307751901439621, guid: 2e565772de5cfc44fa826a0c4a11bb0e, type: 3}
+  m_PrefabInstance: {fileID: 175428017}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &638917948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97113,11 +97126,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f797465be5cdaa4b82ecd4ab87145f5, type: 3}
---- !u!1 &1737080076 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3396462062650506030, guid: 2e565772de5cfc44fa826a0c4a11bb0e, type: 3}
-  m_PrefabInstance: {fileID: 175428017}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1739144250 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 938722864705007806, guid: 6564f89dfb84e1d4eb0b36a119363149, type: 3}
@@ -116957,7 +116965,7 @@ PrefabInstance:
     - target: {fileID: 1343352134844582448, guid: 1c0e4871bf50d1b409852b98283119ec, type: 3}
       propertyPath: HealthBar
       value: 
-      objectReference: {fileID: 1737080076}
+      objectReference: {fileID: 638812713}
     - target: {fileID: 1343352134844582448, guid: 1c0e4871bf50d1b409852b98283119ec, type: 3}
       propertyPath: fadePanel
       value: 

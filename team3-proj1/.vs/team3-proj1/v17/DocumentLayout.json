@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\awzampinojr\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|C:\\Users\\awzampinojr\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\assets\\scripts\\gamemanagersc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanagersc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|c:\\users\\awzampinojr\\documents\\github\\sgd-212-project-1\\team3-proj1\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7555CFB7-6672-D0A2-749E-8264F202F7EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameManagerSc.cs",
-              "DocumentMoniker": "C:\\Users\\awzampinojr\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\GameManagerSc.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManagerSc.cs",
-              "ToolTip": "C:\\Users\\awzampinojr\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\GameManagerSc.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManagerSc.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAIAwwFcAAAAAAAAAAAAAAA==",
+              "Title": "PlayerScript.cs",
+              "DocumentMoniker": "C:\\Users\\awzampinojr\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PlayerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
+              "ToolTip": "C:\\Users\\awzampinojr\\Documents\\GitHub\\SGD-212-Project-1\\team3-proj1\\Assets\\Scripts\\PlayerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwC8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T16:41:12.585Z",
+              "WhenOpened": "2026-09-10T22:56:22.673Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
