@@ -51,7 +51,7 @@ public class GameManagerSc : MonoBehaviour
 
     void FixedUpdate()
     {
-        updatingTimer.text = timeManager.SendTotalTime().ToString();
+        updatingTimer.text = timeManager.SendTotalTime().ToString("F2");
     }
 
     public void SetUpEndTimes(bool didPlayerWin)
