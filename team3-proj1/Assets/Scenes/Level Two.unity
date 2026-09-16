@@ -5705,6 +5705,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10.620295, y: 6.148682, z: 6.4114733}
   m_Center: {x: -9.48214, y: -0.000000017675484, z: 2.7850661}
+--- !u!1 &66654840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3526307751901439621, guid: 2e565772de5cfc44fa826a0c4a11bb0e, type: 3}
+  m_PrefabInstance: {fileID: 247624396}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &67977881 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4425684518293543023, guid: d11dad93fbd94a049a0595ea4c9ad857, type: 3}
@@ -79344,11 +79349,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7454421557693757365, guid: eb97697210965be4da34037e1549985f, type: 3}
   m_PrefabInstance: {fileID: 1013205780}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1013642172 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3396462062650506030, guid: 2e565772de5cfc44fa826a0c4a11bb0e, type: 3}
-  m_PrefabInstance: {fileID: 247624396}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1013784434 stripped
 Transform:
@@ -154062,7 +154062,7 @@ PrefabInstance:
     - target: {fileID: 1343352134844582448, guid: 1c0e4871bf50d1b409852b98283119ec, type: 3}
       propertyPath: HealthBar
       value: 
-      objectReference: {fileID: 1013642172}
+      objectReference: {fileID: 66654840}
     - target: {fileID: 1343352134844582448, guid: 1c0e4871bf50d1b409852b98283119ec, type: 3}
       propertyPath: fadePanel
       value: 

@@ -67,7 +67,7 @@ public class PlayerScript : MonoBehaviour
                 StartCoroutine(StartCooldown());
             }
         }
-        else if (hit.gameObject.CompareTag("Firewall") && !playerLost)
+        else if (hit.gameObject.CompareTag("Firewall") && !playerLost && !playerWon)
         {
             hit.gameObject.GetComponent<MeshCollider>().enabled = false;
             playerLost = true;
