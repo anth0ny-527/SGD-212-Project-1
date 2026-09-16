@@ -65,19 +65,21 @@ public class GameManagerSc : MonoBehaviour
         if (didPlayerWin)
         {
             endingText.text = "You escaped " + sceneName + "!";
-            totalTimeEnding.text = timeManager.SendTotalTime().ToString() + " seconds";
             timeManager.PauseTimer();
+            totalTimeEnding.text = timeManager.SendTotalTime().ToString() + " seconds";
+            Debug.Log(timeManager.SendTotalTime() + " and " + timeManager.SendBestTime(sceneName));
 
             if (timeManager.SendTotalTime() < timeManager.SendBestTime(sceneName))
             {
                 timeManager.SetUpBestTime(sceneName);
                 bestTime.text = "New Record: " + timeManager.SendBestTime(sceneName) + " seconds!";
+                Debug.Log("New record was set.");
             }
             else
             {
                 bestTime.text = "Best Time: " + timeManager.SendBestTime(sceneName) + " seconds";
+                Debug.Log("No new record was set");
             }
-            timeManager.SetUpBestTime(sceneName);
         }
         else
         {
