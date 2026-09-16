@@ -20,6 +20,8 @@ public class AudioScript : MonoBehaviour
 
     public void PlayJumpSound()
     {
+        float randomPitch = Random.Range(0.80f, 1.20f);
+        audioSource.pitch = randomPitch;
         audioSource.PlayOneShot(jumpSound);
     }
 
