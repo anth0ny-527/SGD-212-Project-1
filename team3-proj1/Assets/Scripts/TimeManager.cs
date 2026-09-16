@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class TimeManager : MonoBehaviour
 {
-    private float levelOneTime = 999.0f, levelTwoTime = 999.0f, levelThreeTime = 999.0f;
+    private float levelOneTime = 35.00f, levelTwoTime = 40.00f, levelThreeTime = 60.00f;
     private float elapsedTime = 0.0f;
     private bool isTimerRunning = false;
     public static TimeManager Instance { get; private set; }
