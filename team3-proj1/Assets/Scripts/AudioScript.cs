@@ -7,7 +7,7 @@ public class AudioScript : MonoBehaviour
     [SerializeField] AudioClip walkingSound;
     [SerializeField] AudioClip deathSound;
     [SerializeField] AudioClip deathFire;
-    [SerializeField] AudioClip WinSound;
+    [SerializeField] AudioClip winSound;
     [SerializeField] AudioClip clickSound;
     [SerializeField] float timeBetweenWalk;
     private AudioSource audioSource;
@@ -45,6 +45,11 @@ public class AudioScript : MonoBehaviour
         {
             StartCoroutine(WalkCycle());
         }
+    }
+
+    public void PlayVictorySound()
+    {
+        audioSource.PlayOneShot(winSound);
     }
 
     IEnumerator WalkCycle()

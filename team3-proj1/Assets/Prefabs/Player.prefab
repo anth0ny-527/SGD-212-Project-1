@@ -239,8 +239,8 @@ MonoBehaviour:
   walkingSound: {fileID: 8300000, guid: 51fe7918a4eb49249a72ca17afd20c80, type: 3}
   deathSound: {fileID: 8300000, guid: 7466d6d2daf67fb499c7a0edc814a817, type: 3}
   deathFire: {fileID: 8300000, guid: bb59f4b950e82ec4798a24143192444c, type: 3}
-  WinSound: {fileID: 0}
-  clickSound: {fileID: 0}
+  winSound: {fileID: 8300000, guid: 87132bd318927a7479eb97ed7c105aab, type: 3}
+  clickSound: {fileID: 8300000, guid: b91258efa5ac1a54c9ddb993ece85351, type: 3}
   timeBetweenWalk: 0.5
 --- !u!82 &2265667136159248546
 AudioSource:
