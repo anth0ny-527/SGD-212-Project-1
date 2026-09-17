@@ -52,4 +52,9 @@ MonoBehaviour:
   retryButton: {fileID: 0}
   continueButton: {fileID: 0}
   endPanel: {fileID: 0}
+  endingImage: {fileID: 0}
+  failImage: {fileID: 21300000, guid: 6af755d096be92e46b69885020568a26, type: 3}
+  successImage: {fileID: 21300000, guid: b2bbbfadef386ea4083d445c4f1518fc, type: 3}
   fadePanel: {fileID: 0}
+  audioSource: {fileID: 0}
+  HealthBar: {fileID: 0}

@@ -5270,6 +5270,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3744707754401444166, guid: 2e565772de5cfc44fa826a0c4a11bb0e, type: 3}
   m_PrefabInstance: {fileID: 175428017}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &103211027 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7089106129446751034, guid: 2e565772de5cfc44fa826a0c4a11bb0e, type: 3}
+  m_PrefabInstance: {fileID: 175428017}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103211025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &103643912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -117408,6 +117419,10 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 689074043}
+    - target: {fileID: 1343352134844582448, guid: 1c0e4871bf50d1b409852b98283119ec, type: 3}
+      propertyPath: endingImage
+      value: 
+      objectReference: {fileID: 103211027}
     - target: {fileID: 1343352134844582448, guid: 1c0e4871bf50d1b409852b98283119ec, type: 3}
       propertyPath: retryButton
       value: 

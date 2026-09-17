@@ -1,3 +1,4 @@
+using Microsoft.Unity.VisualStudio.Editor;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -13,6 +14,9 @@ public class GameManagerSc : MonoBehaviour
     [SerializeField] UnityEngine.UI.Button retryButton;
     [SerializeField] UnityEngine.UI.Button continueButton;
     [SerializeField] GameObject endPanel;
+    [SerializeField] UnityEngine.UI.Image endingImage;
+    [SerializeField] Sprite failImage;
+    [SerializeField] Sprite successImage;
     [SerializeField] UnityEngine.UI.Image fadePanel;
     [SerializeField] AudioSource audioSource;
     [SerializeField] GameObject HealthBar;
@@ -64,6 +68,7 @@ public class GameManagerSc : MonoBehaviour
 
         if (didPlayerWin)
         {
+            endingImage.sprite = successImage;
             endingText.text = "You escaped " + sceneName + "!";
             timeManager.PauseTimer();
             totalTimeEnding.text = timeManager.SendTotalTime().ToString() + " seconds";
@@ -83,6 +88,7 @@ public class GameManagerSc : MonoBehaviour
         }
         else
         {
+            endingImage.sprite = failImage;
             endingText.text = "You were burnt up...";
             totalTimeEnding.gameObject.SetActive(false);
             totalTimeHeading.gameObject.SetActive(false);
