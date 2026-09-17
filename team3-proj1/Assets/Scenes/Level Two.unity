@@ -76941,6 +76941,17 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!114 &982732209 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7089106129446751034, guid: 2e565772de5cfc44fa826a0c4a11bb0e, type: 3}
+  m_PrefabInstance: {fileID: 247624396}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247624397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!43 &982806922
 Mesh:
   m_ObjectHideFlags: 0
@@ -154075,6 +154086,10 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 1468747438}
+    - target: {fileID: 1343352134844582448, guid: 1c0e4871bf50d1b409852b98283119ec, type: 3}
+      propertyPath: endingImage
+      value: 
+      objectReference: {fileID: 982732209}
     - target: {fileID: 1343352134844582448, guid: 1c0e4871bf50d1b409852b98283119ec, type: 3}
       propertyPath: retryButton
       value: 
