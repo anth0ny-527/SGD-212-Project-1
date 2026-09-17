@@ -41,6 +41,7 @@ public class PlayerScript : MonoBehaviour
         wasHit = true;
         playerWon = true;
         playerMovement.StopMoving();
+        audioScript.PlayVictorySound();
         gameManager.SetUpEndTimes(true);
     }
 
